@@ -68,7 +68,6 @@ def task_one():
     step3.backward()
     print(f"4. Производная d(результат)/dx: {x.grad}")
 
-
 if __name__ == '__main__':
     task_one()
     task_two()
